@@ -1,0 +1,196 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #F5F7F8;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__wrap {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+  align-items: center;
+}
+.header__link {
+  color: #705A66;
+  font-weight: 300;
+}
+.header__img {
+  width: 115px;
+  height: 91px;
+  margin: 0 auto;
+}
+.hero__wrapper {
+  display: flex;
+}
+.hero__inner .hero__box {
+  margin-top: 125px;
+  z-index: -1;
+  margin-left: 400px;
+}
+.hero__title {
+  color: #705A66;
+  font-size: 160px;
+  font-weight: 200;
+  letter-spacing: -16px;
+}
+.hero__subtitle {
+  color: #705A66;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 250px;
+}
+.hero__img {
+  width: 831px;
+  height: 521px;
+  position: relative;
+  z-index: 0;
+  bottom: 90px;
+  right: 200px;
+  margin-right: auto;
+}
+.hero__btn {
+  font-size: 24px;
+  font-weight: 300;
+  border-radius: 10px;
+  background: #F5EEE0;
+  color: #705A66;
+  padding: 20px 120px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  bottom: 300px;
+  left: 350px;
+}
+.hero__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-bottom: 270px;
+}
+.hero__icon {
+  width: 24px;
+  height: 21px;
+}
+
+.categories__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.categories__img {
+  border-radius: 126px;
+  width: 605px;
+  height: 253px;
+}
+.categories__card {
+  border-radius: 10px;
+  background: #F5EEE0;
+  align-items: center;
+}
+.categories__name {
+  color: #705A66;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.categories__btn {
+  width: 67px;
+  height: 67px;
+  margin-left: auto;
+}
+.bestsellers__title {
+  color: #705A66;
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.bestsellers__img {
+  width: 393px;
+  height: 393px;
+}
+.bestsellers__wrap {
+  display: flex;
+  flex-direction: row;
+}
+.bestsellers__card {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+}
+.bestsellers__big-btn {
+  background-color: #F5EEE0;
+  margin: 100px auto 0;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #705A66;
+  padding: 10px 80px;
+}
+
+.advantages__title {
+  color: #705A66;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 120px;
+  text-align: center;
+}
+.advantages .f {
+  transform: rotate(-30.918deg);
+}
+.advantages .r {
+  transform: rotate(-22.202deg);
+}
+.advantages .o {
+  transform: rotate(-17.078deg);
+}
+.advantages .m {
+  transform: rotate(-12.698deg);
+}
+.advantages .g {
+  transform: rotate(-7.295deg);
+}
+.advantages .r2 {
+  transform: rotate(-4.472deg);
+}
+.advantages .a {
+  transform: rotate(-1.81deg);
+}
+.advantages .n {
+  transform: rotate(3.094deg);
+}
+.advantages .n2 {
+  transform: rotate(17.624deg);
+}
+.advantages .w {
+  transform: rotate(21.103deg);
+}
+.advantages .i {
+  transform: rotate(22.44deg);
+}
+.advantages .t {
+  transform: rotate(23.611deg);
+}
+.advantages .h {
+  transform: rotate(25.583deg);
+}
+.advantages .l {
+  transform: rotate(29.02deg);
+}
+.advantages .o2 {
+  transform: rotate(31.85deg);
+}
+.advantages .v {
+  transform: rotate(37.581deg);
+}
+.advantages .e {
+  transform: rotate(49.1deg);
+}/*# sourceMappingURL=style.css.map */
